@@ -9,6 +9,7 @@
 ## 1. Computer Concepts:
 
  * **Computer** → is an electronic device that receives input, stores or process the the input as per user instruction and provides output in desired format.
+	
 	![Workflow-of-Computer](./images/workflow-of-computer.png)
 	
  * **Computer System** →  is a set of devices including computer and 
