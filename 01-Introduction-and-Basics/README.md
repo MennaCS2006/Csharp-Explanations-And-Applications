@@ -1,78 +1,96 @@
-\# 💻 01 - Introduction and Basics
+# ****💻 01 - Introduction and Basics****
 
 
 
-هذا المجلد يحتوي على ملخص لأساسيات برمجة الحاسب، مقدمة عن إطار عمل .NET، وبدايات لغة C#.
+#### *In this folder, we will discuss the fundamentals of computer programming, the .NET framework, and the basics of C# programming.*
 
 
 
-\## 1. مفاهيم أساسية في الحاسب (Computer Concepts)
+## 1. Computer Concepts:
 
-\* \*\*سير العمل الأساسي (Workflow):\*\* أي جهاز كمبيوتر يعمل بنظام بسيط: إدخال (Input) ⬅️ معالجة (Process) ⬅️ إخراج (Output)\[cite: 1].
+ * **Computer** → is an electronic device that receives input, stores or process the the input as per user instruction and provides output in desired format.
+	![Workflow-of-Computer](./images/workflow-of-computer.png)
+	
+ * **Computer System** →  is a set of devices including computer and 
+other related devices like input/output devices, which make 
+computer to function.
+	
+* There are two major types of computer components: **Hardware 
+and Software**:
 
-\* \*\*المترجم (Compiler) مقابل المفسر (Interpreter):\*\* المترجم يقوم بترجمة الكود بالكامل مرة واحدة لملف تنفيذي (Executable) ويكون أسرع، بينما المفسر يترجم وينفذ الكود سطراً بسطر ويتوقف عند الأخطاء\[cite: 1].
+* **Computer Hardware** → Any physical device used in machine (like monitro, speaker, keyboard.....).
 
-\* \*\*بناء الجملة (Syntax) مقابل الدلالة (Semantics):\*\* الـ Syntax هو القواعد الإملائية لكتابة الكود، أما الـ Semantics فهو المعنى أو المنطق الذي يقصده الكود\[cite: 1].
+* **Computer Software** → Set of instructions, stored in computer memory which tell computer what to do. (Stored digitally)
+
+* **Console** → is generally an interface (text-based or graphical) that 
+allows direct interaction with a computer system.
+
+* **Computer Program** → is a sequence of instructions written using a 
+Computer Programming Language to perform a specified task by 
+the computer. (It is a finished product)
+
+* **Computer Programming** → is the process of writing, designing, testing, and 
+fixing computer programs. (It is not a finished product)
+
+* **Source Code** → is a set of instructions written by the programmer in a programming language.
+
+* **Compiler** → is a computer program (or set of programs) that transforms source code written in a programming language into another computer language.
+
+  →Compiler either translates all program into machine language or produces error report.
+
+	![compiler](./images/compiler.png)
+
+* **Interpreter** → is a software that reads one instruction from source code written in high level language, at a time, translates it in machine language, executes it and then proceeds to next instruction.
+
+* **Debugger** → is a tool that helps programmers find and fix errorsin a program.
+
+* **For Simple illustration, if you have a book and you need 
+translate a book into another language**:
+1. Compiler= Translate an entire book before reading.
+2. Interpreter = Translate sentence by sentence while reading. 
+3. Debugger= A detective that finds the mistakes inside the book.
+
+## 2. Network Enabled Technology (.NET Framework):
+
+* **.NET** → is a Free, Cross-Platform, Open-Source developer platform for building many different types of applications.
+
+* **Framework** → is a software. Or you can say a framework is a collection of many small technologies integrated together to develop applications that can be executed anywhere.
+
+* **.NET Framework** → is used to create and run software applications.
+* **.NET Framework applications** → are developed using C#, F#, or VB Programming Language and compiled into Common Intermediate Language (CIL) or MSIL (Microsoft Intermediate Language). The Common Language Runtime (CLR) runs .NET applications on a given machine, converting the CIL code or MSIL code to machine code that the corresponding machine can execute.
+
+ ![compiler](./images/CLR.png)
+ 
+## 3. C# :
+
+* **C#** → it is an object-oriented programming language created by Microsoft that runs on the .NET Framework and has roots from the C family, and the language is close to other popular languages like C++ and Java.
 
 
 
-\## 2. إطار عمل دوت نت (.NET Framework)
 
-\* إطار العمل يوفر أدوات ومكتبات جاهزة لتطوير التطبيقات\[cite: 2].
+#### *C# Syntax* :
 
-\* \*\*أهم المكونات:\*\*
-
-&#x20; \* \*\*BCL (Base Class Libraries):\*\* مكتبات توفر أكواد جاهزة وتعتبر حجر الأساس لبرامج .NET\[cite: 2].
-
-&#x20; \* \*\*CLR (Common Language Runtime):\*\* المحرك الأساسي لتشغيل التطبيقات\[cite: 2].
-
-\* \*\*كيف تتم ترجمة كود C#؟\*\*
-
-&#x20; يتم ترجمة الكود مرتين؛ الأولى يحول فيها المترجم الكود إلى لغة وسيطة (MSIL)، والثانية يقوم الـ CLR (تحديداً JIT) بتحويلها إلى لغة الآلة (Native Code) ليقرأها نظام التشغيل\[cite: 2].
-
-
-
-\## 3. أساسيات لغة C# (C# Fundamentals)
-
-\* لغة C# هي لغة كائنية التوجه (Object-Oriented) تعتمد على إطار عمل .NET\[cite: 3].
-
-\* نقطة البداية لأي برنامج هي الدالة `Main` والتي تكتب بهذا الشكل: `static void Main(string\[] args)`\[cite: 3].
-
-\* \*\*الطباعة على الشاشة (Output):\*\*
-
-&#x20; \* `Console.WriteLine()`: تطبع النص وتنتقل لسطر جديد\[cite: 3].
-
-&#x20; \* `Console.Write()`: تطبع النص وتستمر في نفس السطر\[cite: 3].
-
-
-
-\### 🌟 أول برنامج (Hello World):
-
-```csharp
+```csharp  
 
 using System;
-
-
 
 namespace HelloWorld
 
 {
 
-&#x20;   class Program
+  class Program
 
-&#x20;   {
+   {
+ 
+       static void Main(string\[] args)
 
-&#x20;       // نقطة البداية لتنفيذ البرنامج
+       {
 
-&#x20;       static void Main(string\[] args)
+         Console.WriteLine("Hello World!");
 
-&#x20;       {
+       }
 
-&#x20;           Console.WriteLine("Hello World!");
-
-&#x20;       }
-
-&#x20;   }
+   }
 
 }
 
