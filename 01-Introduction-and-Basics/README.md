@@ -1,10 +1,10 @@
 # ****💻 01 - Introduction and Basics****
----
+
 
 
 #### *In this folder, we will discuss the fundamentals of computer programming, the .NET framework, and the basics of C# programming.*
 
-
+---
 
 ## 1. Computer Concepts:
 
