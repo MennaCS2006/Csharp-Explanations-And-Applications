@@ -22,7 +22,7 @@
 → In fact, variables are memory locations used for holding values.
 
 → To create a variable, you must specify the type and assign it a value:  
-**type variableName = value;**
+**`type variableName = value;`**
 
 → All C# variables must be identified with unique names.
 
